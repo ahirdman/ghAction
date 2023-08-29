@@ -1,5 +1,7 @@
 import * as core from '@actions/core'
 
+// hi
+
 async function run(): Promise<void> {
   try {
     const ms: string = core.getInput('milliseconds')
